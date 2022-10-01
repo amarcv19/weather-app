@@ -1,4 +1,3 @@
-console.log("client side js");
 const config = 'http://localhost:3000'
 
 // weather?address=uri';

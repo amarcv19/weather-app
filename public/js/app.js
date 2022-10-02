@@ -3,7 +3,7 @@ const config = 'http://localhost:3000'
 // weather?address=uri';
 
 const getData = async(location)=>{
-  const url  = `${config}/weather?address=${location}`;
+  const url  = `/weather?address=${location}`;
   const res = await fetch(url);
   const {location : address , temperature , feelslike}= await res.json();
   
